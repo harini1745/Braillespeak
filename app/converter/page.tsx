@@ -96,7 +96,7 @@ export default function ConverterPage() {
     setPlaying(true);
   };
 
-  const handleFile = (f) => { setFile(f); setFileName(f.name); };
+  const handleFile = (f: File) => { setFile(f); setFileName(f.name); };
 
   const tabIcons = { image: '[IMG]', camera: '[CAM]', unicode: '[UNI]', batch: '[BAT]' };
 
