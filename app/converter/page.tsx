@@ -74,8 +74,8 @@ export default function ConverterPage() {
       setStep(3);
       setOutput(translateData.text);
       setConfidence(translateData.confidence || 90);
-    } catch (e) {
-      setError(e.message || 'Something went wrong');
+    } catch (e: any) {
+      setError(e.message || 'Something went wrong')
     }
 
     setLoading(false);
