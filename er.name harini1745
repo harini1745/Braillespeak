@@ -1,0 +1,29 @@
+[33mcommit 83a2f492336d25c9b6b2f1dce13c852bc0c32059[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: harini1745 <YOUR_GITHUB_EMAIL@gmail.com>
+Date:   Thu Apr 9 13:06:02 2026 +0530
+
+    ignore ts errors on build
+
+[33mcommit 209ae5e561e741f7ff7e6f3303cb998e7ea27d2c[m
+Author: harini1745 <YOUR_GITHUB_EMAIL@gmail.com>
+Date:   Thu Apr 9 13:02:26 2026 +0530
+
+    fix file state type
+
+[33mcommit 259c7d7997b9aa948626096873eea4541ec1b909[m
+Author: harini1745 <YOUR_GITHUB_EMAIL@gmail.com>
+Date:   Thu Apr 9 12:56:36 2026 +0530
+
+    fix handleFile type
+
+[33mcommit 647cc06d52614e75d14b2f7c81567794ab508342[m
+Author: harini1745 <YOUR_GITHUB_EMAIL@gmail.com>
+Date:   Thu Apr 9 12:51:18 2026 +0530
+
+    fix langMap type error
+
+[33mcommit d0aff6babd83f3b943eea7c6bdce94cd1016926c[m
+Author: harini1745 <YOUR_GITHUB_EMAIL@gmail.com>
+Date:   Thu Apr 9 12:43:08 2026 +0530
+
+    redeploy
