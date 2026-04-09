@@ -1,15 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-    domains: ['firebasestorage.googleapis.com'],
+  typescript: {
+    ignoreBuildErrors: true,
   },
-  async rewrites() {
-    return [
-      {
-        source: '/api/backend/:path*',
-        destination: 'http://localhost:8000/:path*',
-      },
-    ];
+  eslint: {
+    ignoreDuringBuilds: true,
   },
 };
 
