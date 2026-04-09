@@ -20,7 +20,7 @@ export default function ConverterPage() {
   const [lang, setLang] = useState('English');
   const [drag, setDrag] = useState(false);
   const [fileName, setFileName] = useState('');
-  const [file, setFile] = useState(null);
+  const [file, setFile] = useState<File | null>(null);
   const [playing, setPlaying] = useState(false);
   const [step, setStep] = useState(0);
   const [error, setError] = useState('');
