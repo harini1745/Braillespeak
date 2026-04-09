@@ -90,7 +90,7 @@ export default function ConverterPage() {
     }
     const utter = new SpeechSynthesisUtterance(output);
     const langMap = { Tamil: 'ta-IN', Hindi: 'hi-IN', French: 'fr-FR', Spanish: 'es-ES', German: 'de-DE', Japanese: 'ja-JP', Arabic: 'ar-SA' };
-    utter.lang = langMap[lang] || 'en-US';
+    utter.lang = (langMap as Record<string, string>)[lang] || 'en-US';
     utter.onend = () => setPlaying(false);
     window.speechSynthesis.speak(utter);
     setPlaying(true);
